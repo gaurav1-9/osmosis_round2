@@ -1,0 +1,92 @@
+{
+    "ongoing-skill": {
+        "title": "Full Stack Web Development",
+        "progress": "10%",
+        "stages": [
+            {
+                "skill": "HTML",
+                "completed": true
+            },
+            {
+                "skill": "CSS",
+                "completed": true
+            },
+            {
+                "skill": "JavaScript",
+                "completed": true
+            },
+            {
+                "skill": "Git & GitHub",
+                "completed": true
+            },
+            {
+                "skill": "Responsive Design",
+                "completed": false
+            },
+            {
+                "skill": "DOM Manipulation",
+                "completed": false
+            },
+            {
+                "skill": "React",
+                "completed": false
+            },
+            {
+                "skill": "Tailwind CSS",
+                "completed": false
+            },
+            {
+                "skill": "Routing (React Router)",
+                "completed": false
+            },
+            {
+                "skill": "State Management (useState/useEffect)",
+                "completed": false
+            },
+            {
+                "skill": "Form Handling & Validation",
+                "completed": false
+            },
+            {
+                "skill": "Node.js",
+                "completed": false
+            },
+            {
+                "skill": "Express.js",
+                "completed": false
+            },
+            {
+                "skill": "MongoDB",
+                "completed": false
+            },
+            {
+                "skill": "REST API Development",
+                "completed": false
+            },
+            {
+                "skill": "Authentication & Authorization",
+                "completed": false
+            },
+            {
+                "skill": "MVC Pattern",
+                "completed": false
+            },
+            {
+                "skill": "Environment Variables & Dotenv",
+                "completed": false
+            },
+            {
+                "skill": "Postman Testing",
+                "completed": false
+            },
+            {
+                "skill": "Deployment (Render/Vercel)",
+                "completed": false
+            }
+        ]
+    },
+    "skills-achieved": [
+        "Flutter Development",
+        "Java Programming"
+    ]
+}

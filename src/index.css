@@ -4,21 +4,38 @@
 @theme {
   --font-albertSans: "Albert Sans", sans-serif;
 
-  --color-lightCyan: #CCE4E2 ;
-  --color-darkCyan: #7DC7C0 ;
+  --color-lightCyan: #CCE4E2;
+  --color-darkCyan: #7DC7C0;
   --color-thisle: #C19CCE;
-  --color-palePurple: #E9D4F1 ;
-  --color-night: #0C0C0C ;
-  --color-silver: #B3B3B3 ;
-  --color-antiFlashWhite: #ECEDEF ;
-  --color-whiteSmoke: #FAFAFA ;
-  --color-emerald: #51B366 ;
+  --color-palePurple: #E9D4F1;
+  --color-night: #0C0C0C;
+  --color-silver: #B3B3B3;
+  --color-antiFlashWhite: #ECEDEF;
+  --color-whiteSmoke: #FAFAFA;
+  --color-emerald: #51B366;
 }
 
-*{
+* {
   font-family: var(--font-albertSans);
 }
 
-body{
+body {
   background: var(--color-antiFlashWhite);
+}
+
+.scrollbar-color::-webkit-scrollbar {
+  height: 10px;
+}
+
+.scrollbar-color::-webkit-scrollbar-thumb {
+  background-color: #b3b3b3aa;
+  border-radius: 10px;
+}
+
+.scrollbar-color::-webkit-scrollbar-thumb:hover {
+  background-color: #b3b3b3;
+}
+
+.scrollbar-color::-webkit-scrollbar-track {
+  background-color: #ECEDEF;
 }
