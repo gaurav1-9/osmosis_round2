@@ -1,0 +1,157 @@
+{
+    "career-goal": [
+        {
+            "title": "Full Stack Web Developer",
+            "goal_progress": 66,
+            "style": "w-[66%]",
+            "skills_summary": "4 out of 6 skills achieved",
+            "skills_required": [
+                {
+                    "name": "HTML & CSS",
+                    "achieved": true
+                },
+                {
+                    "name": "JavaScript",
+                    "achieved": true
+                },
+                {
+                    "name": "TailwindCSS",
+                    "achieved": true
+                },
+                {
+                    "name": "React",
+                    "achieved": true
+                },
+                {
+                    "name": "Node.JS",
+                    "achieved": false
+                },
+                {
+                    "name": "MongoDB",
+                    "achieved": false
+                }
+            ],
+            "tree": "Full Stack Web Developer.png"
+        },
+        {
+            "title": "ML Engineer",
+            "goal_progress": 28,
+            "style": "w-[28%]",
+            "skills_summary": "2 out of 7 skills achieved",
+            "skills_required": [
+                {
+                    "name": "Python",
+                    "achieved": true
+                },
+                {
+                    "name": "NumPy",
+                    "achieved": true
+                },
+                {
+                    "name": "Pandas",
+                    "achieved": false
+                },
+                {
+                    "name": "Matplotlib",
+                    "achieved": false
+                },
+                {
+                    "name": "Statistics",
+                    "achieved": false
+                },
+                {
+                    "name": "PyTorch",
+                    "achieved": false
+                },
+                {
+                    "name": "TensorFlow",
+                    "achieved": false
+                }
+            ],
+            "tree": "ML Engineer.png"
+        },
+        {
+            "title": "Flutter Developer",
+            "skills_summary": "4 out of 8 skills achieved",
+            "goal_progress": 50,
+            "style": "w-[50%]",
+            "skills_required": [
+                {
+                    "name": "Dart Programming",
+                    "achieved": true
+                },
+                {
+                    "name": "Flutter Widgets",
+                    "achieved": true
+                },
+                {
+                    "name": "State Management (Provider/Bloc)",
+                    "achieved": false
+                },
+                {
+                    "name": "REST API Integration",
+                    "achieved": true
+                },
+                {
+                    "name": "Firebase Integration",
+                    "achieved": false
+                },
+                {
+                    "name": "App Navigation",
+                    "achieved": true
+                },
+                {
+                    "name": "Animations in Flutter",
+                    "achieved": false
+                },
+                {
+                    "name": "Publishing to Play Store",
+                    "achieved": false
+                }
+            ],
+            "tree": "Flutter Developer.png"
+        }
+    ],
+    "other-career": [
+        {
+            "title": "3D Modeling",
+            "skills_required": [
+                "Mesh Modeling",
+                "Subdivision Modeling",
+                "Sculpting",
+                "Re-topology",
+                "Texturing",
+                "UV Unwrapping",
+                "Rendering",
+                "Blender",
+                "Maya"
+            ]
+        },
+        {
+            "title": "Game Development",
+            "skills_required": [
+                "Game Design Basics",
+                "Unity or Unreal Engine",
+                "C# or C++ Scripting",
+                "Physics and Collisions",
+                "Game UI/UX",
+                "Animation Integration",
+                "Build and Deployment"
+            ]
+        },
+        {
+            "title": "Video Editing & Motion Graphics",
+            "skills_required": [
+                "Video Editing Basics",
+                "Premiere Pro or DaVinci Resolve",
+                "After Effects",
+                "Keyframing & Animation",
+                "Transitions & Effects",
+                "Audio Syncing",
+                "Color Grading",
+                "Text Animation",
+                "Rendering Settings"
+            ]
+        }
+    ]
+}

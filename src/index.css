@@ -25,6 +25,7 @@ body {
 
 .scrollbar-color::-webkit-scrollbar {
   height: 10px;
+  width: 10px;
 }
 
 .scrollbar-color::-webkit-scrollbar-thumb {
