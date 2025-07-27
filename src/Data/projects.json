@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Personal Expense Tracker",
+        "date": "24 July, 2025",
+        "desc": "A web app to track daily expenses, categorize them, and visualize monthly spending habits.",
+        "tech": [
+            "React",
+            "Chart.js",
+            "Firebase",
+            "TailwindCSS"
+        ]
+    },
+    {
+        "title": "Image Classification using CNN",
+        "date": "23 June, 2025",
+        "desc": "Built a convolutional neural network to classify images from the CIFAR-10 dataset.",
+        "tech": [
+            "Python",
+            "Keras",
+            "TensorFlow"
+        ]
+    },
+    {
+        "title": "Memory Card Game",
+        "date": "03 June, 2025",
+        "desc": "A web based memory card flip game",
+        "tech": [
+            "React",
+            "TailwindCSS"
+        ]
+    },
+    {
+        "title": "Book Exchange Platform",
+        "date": "15 May, 2025",
+        "desc": "A campus-focused web app where users can upload and exchange books through chat-based agreements.",
+        "tech": [
+            "MERN Stack",
+            "Socket.IO",
+            "TailwindCSS"
+        ]
+    },
+    {
+        "title": "Low-Light Image Enhancer",
+        "date": "10 April, 2025",
+        "desc": "An image processing project that enhances low-light images and applies sharpening filters for clarity.",
+        "tech": [
+            "Python",
+            "OpenCV",
+            "NumPy"
+        ]
+    }
+]
