@@ -1,5 +1,7 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import SidePanel from './Components/SidePanel'
+import TopPanel from './Components/TopPanel'
+import MainContent from './Components/MainContent'
 
 const App = () => {
   const [navigation, setNavigation] = useState(0)
@@ -9,7 +11,8 @@ const App = () => {
   return (
     <div className='flex'>
       <SidePanel navigation={navigation} changeNavigation={changeNavigation} />
-      <div className="flex-6"></div>
+      <TopPanel />
+      <MainContent navigation={navigation} />
     </div>
   )
 }

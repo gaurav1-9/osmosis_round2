@@ -1,4 +1,3 @@
-import React, { useId } from 'react'
 import userInfo from '../Data/userInfo.json'
 import { FaRegCalendarAlt } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
@@ -6,7 +5,7 @@ import { MdWork } from "react-icons/md";
 
 const SidePanel = ({ navigation, changeNavigation }) => {
     return (
-        <div className='bg-lightCyan flex flex-col h-screen fixed top-0 left-0 items-center'>
+        <div className='z-50 bg-lightCyan flex flex-col h-screen fixed top-0 left-0 items-center'>
             <div className="px-8">
                 <img src={`/${userInfo.profilePic}`} alt="profilePic" className='w-68' />
                 <div className="flex flex-col">
