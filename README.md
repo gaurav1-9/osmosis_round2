@@ -1,7 +1,17 @@
 # Learner's Compass - Dashboard UI
 
-🔗[]()\
+🔗[Dashboard -Live Link](https://osmosis-round2.vercel.app)\
 🖌️[Figma design link](https://www.figma.com/design/Utuq5SscVve6V6gH0wyIzn/Osmosis---Round-2-Task?node-id=0-1&p=f&t=zblnEDQR2eN902a6-0)
+
+## 📸 Project Screenshots
+<p>
+<img src="./public/SS/dashboard.png" alt="Image 1" />
+</p>
+<p>
+<img src="./public/SS/skillmap.png" alt="Image 1" style="width:49.5%" />
+<img src="./public/SS/career explore.png" alt="Image 1" style="width:49.5%" />
+</p>
+<img src="./public/SS/projects.png" alt="Image 1" />
 
 ## 💻 Tech Stack
 
