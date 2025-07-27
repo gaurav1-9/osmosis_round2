@@ -64,7 +64,7 @@ const Dashboard = () => {
                   <span>{skill.percentage}%</span>
                 </p>
                 <div className='w-full h-3 rounded-full bg-antiFlashWhite mb-5'>
-                  <div className={`bg-thisle rounded-full w-[${skill.percentage}%] h-full`}></div>
+                  <div className={`bg-thisle rounded-full ${skill.style} h-full`}></div>
                 </div>
               </div>
             ))

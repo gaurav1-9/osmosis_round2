@@ -1,7 +1,17 @@
+import { SlList } from 'react-icons/sl';
 import skills from '../../Data/skillMap.json'
 import Map from '../Map';
+import { FaCaretDown, FaCaretUp } from "react-icons/fa";
+import { useState } from 'react';
 
 const SkillsMap = () => {
+  const [openIndexes, setOpenIndexes] = useState([]);
+
+  const toggleIndex = (index) => {
+    setOpenIndexes((prev) =>
+      prev.includes(index) ? prev.filter(i => i !== index) : [...prev, index]
+    );
+  };
   return (
     <div className='w-full'>
       <div>
@@ -19,6 +29,7 @@ const SkillsMap = () => {
                   stage={stage}
                   index={index}
                   totalLength={skills['ongoing-skill'].stages.length}
+                  mark={true}
                 />
               ))
             }
@@ -28,7 +39,7 @@ const SkillsMap = () => {
 
       <div className='mt-6 mb-4'>
         <p className='flex text-3xl min-[1920px]:text-5xl font-semibold gap-2'>Skills Achieved</p>
-        <div className="flex gap-3 mt-5 w-full overflow-x-auto pb-2">
+        <div className="flex gap-3 mt-5 w-full overflow-x-auto pb-2 scrollbar-color">
           {
             skills['skills-achieved'].map((skill, index) => (
               <div
@@ -45,8 +56,38 @@ const SkillsMap = () => {
           }
         </div>
       </div>
+
       <div>
         <p className='flex text-3xl min-[1920px]:text-5xl font-semibold gap-2'>Other Unexplored Skills</p>
+        <div className='flex flex-col gap-2 mt-5'>
+          {skills['other-skills'].map((skillList, index) => (
+            <div key={index} className='w-full bg-antiFlashWhite p-3 rounded-xl' >
+              <div className='flex justify-between items-center'>
+                <p className='text-2xl font-semibold'>{skillList.title}</p>
+                <span
+                  onClick={() => toggleIndex(index)}
+                  className='text-3xl hover:bg-silver/30 rounded-full cursor-pointer'
+                >
+                  {openIndexes.includes(index) ? <FaCaretUp /> : <FaCaretDown />}
+                </span>
+              </div>
+
+              {openIndexes.includes(index) && (
+                <div className='flex overflow-x-auto px-5 scrollbar-color'>
+                  {skillList.stages.map((stage, idx) => (
+                    <Map
+                      index={idx}
+                      mark={false}
+                      stage={stage}
+                      key={idx}
+                      totalLength={skillList.stages.length}
+                    />
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   )

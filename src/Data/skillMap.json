@@ -1,7 +1,7 @@
 {
     "ongoing-skill": {
         "title": "Full Stack Web Development",
-        "progress": "10%",
+        "progress": "20%",
         "stages": [
             {
                 "skill": "HTML",
@@ -88,5 +88,372 @@
     "skills-achieved": [
         "Flutter Development",
         "Java Programming"
+    ],
+    "other-skills": [
+        {
+            "title": "Android Development",
+            "stages": [
+                {
+                    "skill": "Java / Kotlin Basics",
+                    "completed": false
+                },
+                {
+                    "skill": "Android Studio Setup",
+                    "completed": false
+                },
+                {
+                    "skill": "XML Layouts",
+                    "completed": false
+                },
+                {
+                    "skill": "Activity & Lifecycle",
+                    "completed": false
+                },
+                {
+                    "skill": "Intents and Navigation",
+                    "completed": false
+                },
+                {
+                    "skill": "RecyclerView & Adapters",
+                    "completed": false
+                },
+                {
+                    "skill": "Fragments",
+                    "completed": false
+                },
+                {
+                    "skill": "ViewModel & LiveData",
+                    "completed": false
+                },
+                {
+                    "skill": "Room Database (SQLite)",
+                    "completed": false
+                },
+                {
+                    "skill": "Retrofit / Volley (Networking)",
+                    "completed": false
+                },
+                {
+                    "skill": "Permissions & Sensors",
+                    "completed": false
+                },
+                {
+                    "skill": "Material Design Components",
+                    "completed": false
+                },
+                {
+                    "skill": "Firebase Integration",
+                    "completed": false
+                },
+                {
+                    "skill": "Push Notifications",
+                    "completed": false
+                },
+                {
+                    "skill": "Jetpack Compose (Optional)",
+                    "completed": false
+                },
+                {
+                    "skill": "Publishing to Play Store",
+                    "completed": false
+                },
+                {
+                    "skill": "Unit Testing & Debugging",
+                    "completed": false
+                },
+                {
+                    "skill": "App Deployment & Versioning",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "title": "Machine Learning",
+            "stages": [
+                {
+                    "skill": "Python Basics",
+                    "completed": false
+                },
+                {
+                    "skill": "NumPy & Pandas",
+                    "completed": false
+                },
+                {
+                    "skill": "Data Cleaning & Preprocessing",
+                    "completed": false
+                },
+                {
+                    "skill": "Matplotlib & Seaborn (Data Visualization)",
+                    "completed": false
+                },
+                {
+                    "skill": "Supervised Learning (Regression, Classification)",
+                    "completed": false
+                },
+                {
+                    "skill": "Unsupervised Learning (Clustering, PCA)",
+                    "completed": false
+                },
+                {
+                    "skill": "Model Evaluation (Accuracy, Precision, Recall)",
+                    "completed": false
+                },
+                {
+                    "skill": "Train/Test Split & Cross Validation",
+                    "completed": false
+                },
+                {
+                    "skill": "Scikit-learn Library",
+                    "completed": false
+                },
+                {
+                    "skill": "Overfitting & Regularization",
+                    "completed": false
+                },
+                {
+                    "skill": "Hyperparameter Tuning (GridSearchCV)",
+                    "completed": false
+                },
+                {
+                    "skill": "Decision Trees & Random Forest",
+                    "completed": false
+                },
+                {
+                    "skill": "Naive Bayes, SVM, KNN",
+                    "completed": false
+                },
+                {
+                    "skill": "Neural Networks (ANN basics)",
+                    "completed": false
+                },
+                {
+                    "skill": "TensorFlow / Keras",
+                    "completed": false
+                },
+                {
+                    "skill": "Real-world ML Project",
+                    "completed": false
+                },
+                {
+                    "skill": "Model Deployment (Flask/Streamlit)",
+                    "completed": false
+                },
+                {
+                    "skill": "Version Control with MLflow or DVC",
+                    "completed": false
+                },
+                {
+                    "skill": "MLOps Basics",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "title": "Cloud Computing",
+            "stages": [
+                {
+                    "skill": "Basics of Cloud Computing",
+                    "completed": false
+                },
+                {
+                    "skill": "Virtualization & Containers",
+                    "completed": false
+                },
+                {
+                    "skill": "Linux & Command Line Basics",
+                    "completed": false
+                },
+                {
+                    "skill": "Networking & DNS Concepts",
+                    "completed": false
+                },
+                {
+                    "skill": "AWS Core Services (EC2, S3, RDS)",
+                    "completed": false
+                },
+                {
+                    "skill": "IAM & Security Groups",
+                    "completed": false
+                },
+                {
+                    "skill": "Auto Scaling & Load Balancing",
+                    "completed": false
+                },
+                {
+                    "skill": "AWS CLI & SDKs",
+                    "completed": false
+                },
+                {
+                    "skill": "Azure or GCP Basics",
+                    "completed": false
+                },
+                {
+                    "skill": "Monitoring & Logging",
+                    "completed": false
+                },
+                {
+                    "skill": "Infrastructure as Code (Terraform)",
+                    "completed": false
+                },
+                {
+                    "skill": "CI/CD Pipelines (Jenkins, GitHub Actions)",
+                    "completed": false
+                },
+                {
+                    "skill": "Serverless Computing (Lambda, Cloud Functions)",
+                    "completed": false
+                },
+                {
+                    "skill": "Kubernetes Basics",
+                    "completed": false
+                },
+                {
+                    "skill": "Cloud Security Best Practices",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "title": "Cybersecurity",
+            "stages": [
+                {
+                    "skill": "Networking Fundamentals",
+                    "completed": false
+                },
+                {
+                    "skill": "Linux Command Line & Permissions",
+                    "completed": false
+                },
+                {
+                    "skill": "Cryptography Basics",
+                    "completed": false
+                },
+                {
+                    "skill": "OWASP Top 10",
+                    "completed": false
+                },
+                {
+                    "skill": "Web Application Security",
+                    "completed": false
+                },
+                {
+                    "skill": "Firewalls & VPNs",
+                    "completed": false
+                },
+                {
+                    "skill": "System Hardening",
+                    "completed": false
+                },
+                {
+                    "skill": "Incident Response",
+                    "completed": false
+                },
+                {
+                    "skill": "Penetration Testing Basics",
+                    "completed": false
+                },
+                {
+                    "skill": "Tools: Nmap, Wireshark, Burp Suite",
+                    "completed": false
+                },
+                {
+                    "skill": "Vulnerability Assessment",
+                    "completed": false
+                },
+                {
+                    "skill": "Ethical Hacking Certifications (CEH, OSCP)",
+                    "completed": false
+                },
+                {
+                    "skill": "SIEM Tools (Splunk, ELK)",
+                    "completed": false
+                },
+                {
+                    "skill": "Cloud Security Fundamentals",
+                    "completed": false
+                },
+                {
+                    "skill": "Secure Coding Practices",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "title": "Data Science",
+            "stages": [
+                {
+                    "skill": "Python for Data Science",
+                    "completed": false
+                },
+                {
+                    "skill": "NumPy & Pandas",
+                    "completed": false
+                },
+                {
+                    "skill": "Matplotlib & Seaborn",
+                    "completed": false
+                },
+                {
+                    "skill": "Exploratory Data Analysis (EDA)",
+                    "completed": false
+                },
+                {
+                    "skill": "Data Cleaning & Wrangling",
+                    "completed": false
+                },
+                {
+                    "skill": "Statistics & Probability",
+                    "completed": false
+                },
+                {
+                    "skill": "Hypothesis Testing",
+                    "completed": false
+                },
+                {
+                    "skill": "Machine Learning Algorithms",
+                    "completed": false
+                },
+                {
+                    "skill": "Model Evaluation Metrics",
+                    "completed": false
+                },
+                {
+                    "skill": "SQL for Data Queries",
+                    "completed": false
+                },
+                {
+                    "skill": "Big Data Concepts",
+                    "completed": false
+                },
+                {
+                    "skill": "Apache Spark / Hadoop Basics",
+                    "completed": false
+                },
+                {
+                    "skill": "Time Series Analysis",
+                    "completed": false
+                },
+                {
+                    "skill": "Natural Language Processing",
+                    "completed": false
+                },
+                {
+                    "skill": "Deep Learning (CNN, RNN)",
+                    "completed": false
+                },
+                {
+                    "skill": "Deploying Models (Flask, Streamlit)",
+                    "completed": false
+                },
+                {
+                    "skill": "Data Engineering Basics",
+                    "completed": false
+                },
+                {
+                    "skill": "Real-World Projects",
+                    "completed": false
+                }
+            ]
+        }
     ]
 }

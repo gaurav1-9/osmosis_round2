@@ -2,19 +2,23 @@
     "skills-overview": [
         {
             "skill": "Python",
-            "percentage": 65
+            "percentage": 65,
+            "style": "w-[65%]"
         },
         {
             "skill": "JavaScript",
-            "percentage": 83
+            "percentage": 83,
+            "style": "w-[83%]"
         },
         {
             "skill": "React",
-            "percentage": 43
+            "percentage": 43,
+            "style": "w-[43%]"
         },
         {
             "skill": "HTML",
-            "percentage": 78
+            "percentage": 78,
+            "style": "w-[78%]"
         }
     ],
     "timeline": [
