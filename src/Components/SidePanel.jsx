@@ -5,7 +5,7 @@ import { MdWork } from "react-icons/md";
 
 const SidePanel = ({ navigation, changeNavigation }) => {
     return (
-        <div className='z-50 bg-lightCyan flex flex-col h-screen fixed top-0 left-0 items-center'>
+        <div className='z-50 bg-lightCyan hidden lg:flex flex-col h-screen fixed top-0 left-0 items-center'>
             <div className="px-8">
                 <img src={`/${userInfo.profilePic}`} alt="profilePic" className='w-68' draggable="false" />
                 <div className="flex flex-col">
