@@ -7,7 +7,7 @@ const SidePanel = ({ navigation, changeNavigation }) => {
     return (
         <div className='z-50 bg-lightCyan flex flex-col h-screen fixed top-0 left-0 items-center'>
             <div className="px-8">
-                <img src={`/${userInfo.profilePic}`} alt="profilePic" className='w-68' />
+                <img src={`/${userInfo.profilePic}`} alt="profilePic" className='w-68' draggable="false" />
                 <div className="flex flex-col">
                     <p className='font-semibold text-3xl uppercase'>{userInfo.name}</p>
                     <p className='font-light leading-3 text-xl mb-5'>{userInfo.degree}</p>
