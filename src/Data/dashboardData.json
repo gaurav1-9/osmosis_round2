@@ -1,0 +1,52 @@
+{
+    "skills-overview": [
+        {
+            "skill": "Python",
+            "percentage": 65
+        },
+        {
+            "skill": "JavaScript",
+            "percentage": 83
+        },
+        {
+            "skill": "React",
+            "percentage": 43
+        },
+        {
+            "skill": "HTML",
+            "percentage": 78
+        }
+    ],
+    "timeline": [
+        {
+            "date": "27 Jul, 2025",
+            "objective": "Web Development | Git & GitHub (Completed)"
+        },
+        {
+            "date": "26 Jul, 2025",
+            "objective": "Web Development | JavaScript (Completed)"
+        },
+        {
+            "date": "25 Jul, 2025",
+            "objective": "Web Development | CSS (Completed)"
+        },
+        {
+            "date": "24 Jul, 2025",
+            "objective": "Personal Expense Tracker Project Added"
+        }
+    ],
+    "statistics": {
+        "head": [
+            "2",
+            "Full Stack Web Developer"
+        ],
+        "streak": 3,
+        "skill-achieved": 2,
+        "projects-completed": 5,
+        "career-data": [
+            "63%",
+            "Full Stack Web Developer"
+        ],
+        "tip": "Web Development | Responsive Design"
+    }
+}

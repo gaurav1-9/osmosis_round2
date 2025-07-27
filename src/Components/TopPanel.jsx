@@ -3,7 +3,7 @@ import {name} from "../Data/userInfo.json"
 
 const TopPanel = () => {
   return (
-    <div className='flex bg-antiFlashWhite fixed top-0 w-full lg:pl-89 px-5 py-3 justify-between items-center'>
+    <div className='flex bg-antiFlashWhite text-night fixed top-0 w-full lg:pl-89 px-5 py-3 justify-between items-center'>
         <div className="flex items-center text-4xl font-semibold gap-2">
             <FaCompass  className="text-6xl"/>
             <div className="flex flex-col uppercase">

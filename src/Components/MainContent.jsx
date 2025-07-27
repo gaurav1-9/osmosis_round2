@@ -7,7 +7,7 @@ import SkillsMap from "./Navigation/SkillsMap"
 const MainContent = ({ navigation }) => {
     return (
         <div className="w-full min-h-screen lg:pl-89 px-5 pt-28 py-4">
-            <div className="hidden lg:flex w-full min-h-full bg-whiteSmoke p-3 rounded-xl">
+            <div className="hidden lg:flex w-full min-h-full bg-whiteSmoke p-7 rounded-xl text-night">
                 {
                     (navigation === 0)
                         ? <Dashboard />

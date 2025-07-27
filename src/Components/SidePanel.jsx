@@ -5,33 +5,33 @@ import { MdWork } from "react-icons/md";
 
 const SidePanel = ({ navigation, changeNavigation }) => {
     return (
-        <div className='z-50 bg-lightCyan hidden lg:flex flex-col h-screen fixed top-0 left-0 items-center'>
+        <div className='z-50 bg-lightCyan text-night hidden lg:flex flex-col h-screen fixed top-0 left-0 items-center'>
             <div className="px-8">
                 <img src={`/${userInfo.profilePic}`} alt="profilePic" className='w-68' draggable="false" />
                 <div className="flex flex-col">
                     <p className='font-semibold text-3xl uppercase'>{userInfo.name}</p>
                     <p className='font-light leading-3 text-xl mb-5'>{userInfo.degree}</p>
-                    <div className="flex items-center gap-1 font-light text-2xl mb-1">
+                    <div className="flex items-center gap-1 font-light text-lg 2xl:text-2xl mb-1">
                         <FaRegCalendarAlt />
                         <p>{`${userInfo.age} years old`}</p>
                     </div>
-                    <div className="flex items-center gap-1 font-light text-2xl mb-1">
+                    <div className="flex items-center gap-1 font-light text-lg 2xl:text-2xl mb-1">
                         <MdWork />
                         <p>{userInfo.ocupation}</p>
                     </div>
-                    <div className="flex items-center gap-1 font-light text-2xl">
+                    <div className="flex items-center gap-1 font-light text-lg 2xl:text-2xl">
                         <FaLocationDot />
                         <p>{userInfo.location}</p>
                     </div>
                 </div>
             </div>
 
-            <div className="flex flex-col w-full pl-6 text-2xl mt-10 gap-2 justify-center">
+            <div className="flex flex-col w-full pl-6 text-xl 2xl:text-2xl mt-6 2xl:mt-10 gap-2 justify-center">
                 <p
                     className={`${(navigation === 0)
                         ? 'bg-antiFlashWhite font-semibold'
                         : 'hover:bg-antiFlashWhite/40'
-                        } rounded-bl-full rounded-tl-full px-6 py-2 cursor-pointer duration-300 ease-in-out`}
+                        } rounded-bl-full rounded-tl-full px-6 py-0.5 2xl:py-2 cursor-pointer duration-300 ease-in-out`}
                     onClick={() => changeNavigation(0)}
                 >
                     Dashboard
@@ -40,7 +40,7 @@ const SidePanel = ({ navigation, changeNavigation }) => {
                     className={`${(navigation === 1)
                         ? 'bg-antiFlashWhite font-semibold'
                         : 'hover:bg-antiFlashWhite/40'
-                        } rounded-bl-full rounded-tl-full px-6 py-2 cursor-pointer duration-300 ease-in-out`}
+                        } rounded-bl-full rounded-tl-full px-6 py-0.5 2xl:py-2 cursor-pointer duration-300 ease-in-out`}
                     onClick={() => changeNavigation(1)}
                 >
                     Skills Map
@@ -49,7 +49,7 @@ const SidePanel = ({ navigation, changeNavigation }) => {
                     className={`${(navigation === 2)
                         ? 'bg-antiFlashWhite font-semibold'
                         : 'hover:bg-antiFlashWhite/40'
-                        } rounded-bl-full rounded-tl-full px-6 py-2 cursor-pointer duration-300 ease-in-out`}
+                        } rounded-bl-full rounded-tl-full px-6 py-0.5 2xl:py-2 cursor-pointer duration-300 ease-in-out`}
                     onClick={() => changeNavigation(2)}
                 >
                     Projects
@@ -58,7 +58,7 @@ const SidePanel = ({ navigation, changeNavigation }) => {
                     className={`${(navigation === 3)
                         ? 'bg-antiFlashWhite font-semibold'
                         : 'hover:bg-antiFlashWhite/40'
-                        } rounded-bl-full rounded-tl-full px-6 py-2 cursor-pointer duration-300 ease-in-out`}
+                        } rounded-bl-full rounded-tl-full px-6 py-0.5 2xl:py-2 cursor-pointer duration-300 ease-in-out`}
                     onClick={() => changeNavigation(3)}
                 >
                     Career Explorer
